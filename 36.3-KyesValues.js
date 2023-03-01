@@ -54,9 +54,15 @@ for (element of entriesOfarr1) {
  * Note: The delete operator should not be used on predefined JavaScript object properties. It can crash your application.
  */
 
+// Method 1: using delete operator
 // console.log(obj1);
 // delete obj1.married;
 // console.log(obj1);
+
+// Method 2
+// console.log(obj1);
+// const {age, ...rest} = obj1;
+// console.log(rest);
 
 /**
  * Object seal: The Object.seal() static method seals an object
@@ -74,8 +80,8 @@ for (element of entriesOfarr1) {
  * Freezing an object prevents extensions and makes existing properties non-writable and non-configurable
  */
 
-console.log(obj1);
-Object.freeze(obj1);
-delete obj1.politics;
-obj1.age = 35;
-console.log(obj1);
+// console.log(obj1);
+// Object.freeze(obj1);
+// delete obj1.politics;
+// obj1.age = 35;
+// console.log(obj1);
