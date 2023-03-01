@@ -1,5 +1,5 @@
 /**
- * 36-1 Module introduction Different way to Create Object
+ * 
  * Different way to create JS Obj
  * An Object has two properties
  * a) Keys
